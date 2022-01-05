@@ -15,6 +15,8 @@ We will select an API that provides numeric data about a topic that you like and
 ## Video
 
 - [Link](https://www.loom.com/share/e35726564e2a46a9a02dbc771e7f34d0)
+- [Link for most proud part](https://www.loom.com/share/b2ed893ab8f54d13a98a2f4e55f759ee)
+
 
 ## Built With
 
