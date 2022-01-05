@@ -1,27 +1,444 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.Navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #4369b2;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  padding: 5px;
+  height: 5vh;
+}
+
+.arrow {
+  padding-top: 2px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.search {
+  padding: 6px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  background-color: #4369b2;
+}
+
+.map img {
+  width: 50%;
+  height: 50%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #4369b2;
+}
+
+.link {
+  width: 37.5%;
+  height: 35vh;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.town {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  color: black;
+  border: none;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+#Cairo {
+  background-image: url("../src/components/image/Governadorat_de_El_Caire.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Alexandria {
+  background-image: url("../src/components/image/Alexandria.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Aswan {
+  background-image: url("../src/components/image/120px-Governadorat_dAswan.svg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Damietta {
+  background-image: url("../src/components/image/Flag_of_Damietta_Governorate.svg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Asyut {
+  background-image: url("../src/components/image/Flag_of_Assiut_Governorate.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Giza {
+  background-image: url("../src/components/image/Flag_of_Giza_Governorate.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Ismailia {
+  background-image: url("../src/components/image/Governadorat_d'Ismailiya.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Luxor {
+  background-image: url("../src/components/image/Eg_luxor1.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Suez {
+  background-image: url("../src/components/image/Flag_of_Suez_Governorate.svg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Sohag {
+  background-image: url("../src/components/image/Governadorat_de_Suhaj.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Qena {
+  background-image: url("../src/components/image/Governadorat_de_Qena_flag.svg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#Minya {
+  background-image: url("../src/components/image/Flag_of_Minya_Governorate.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.weather {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #4369b2;
+  height: 110vh;
+  color: white;
+}
+
+.name {
+  font-size: 64px;
+  font-weight: bolder;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.icon svg {
+  font-size: 300px;
+}
+
+.discraption {
+  font-size: 38px;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.temp {
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.others {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.others span {
+  padding: 0.5em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 812px) {
+  .Navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #4369b2;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    padding: 5px;
+    height: 5vh;
+  }
+
+  .arrow {
+    padding-top: 2px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .log {
+    font-size: 0.6em;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .search {
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+
+  .container {
+    height: 100vh;
+  }
+
+  .map img {
+    width: 100vw;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #4369b2;
+  }
+
+  .link {
+    width: 40%;
+    height: 15vh;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-radius: 12px;
+    text-decoration: none;
+  }
+
+  .town {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: black;
+    border: none;
+    width: 100%;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+  }
+
+  #Cairo {
+    background-image: url("../src/components/image/Governadorat_de_El_Caire.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Alexandria {
+    background-image: url("../src/components/image/Alexandria.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Aswan {
+    background-image: url("../src/components/image/120px-Governadorat_dAswan.svg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Damietta {
+    background-image: url("../src/components/image/Flag_of_Damietta_Governorate.svg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Asyut {
+    background-image: url("../src/components/image/Flag_of_Assiut_Governorate.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Giza {
+    background-image: url("../src/components/image/Flag_of_Giza_Governorate.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Ismailia {
+    background-image: url("../src/components/image/Governadorat_d'Ismailiya.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Luxor {
+    background-image: url("../src/components/image/Eg_luxor1.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Suez {
+    background-image: url("../src/components/image/Flag_of_Suez_Governorate.svg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Sohag {
+    background-image: url("../src/components/image/Governadorat_de_Suhaj.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Qena {
+    background-image: url("../src/components/image/Governadorat_de_Qena_flag.svg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #Minya {
+    background-image: url("../src/components/image/Flag_of_Minya_Governorate.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .weather {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #4369b2;
+    height: 100vh;
+    color: white;
+  }
+
+  .name {
+    font-size: 64px;
+    font-weight: bolder;
+    font-family: "Noto Sans", sans-serif;
+  }
+
+  .icon svg {
+    font-size: 300px;
+  }
+
+  .discraption {
+    font-size: 38px;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  .temp {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  .others {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 3%;
+    text-align: center;
+  }
+
+  .others span {
+    padding: 0.5em;
+    text-align: center;
+  }
 }
