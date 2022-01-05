@@ -11,6 +11,7 @@ We will select an API that provides numeric data about a topic that you like and
 - Details Page
 ![screenshot](./app_screenshot1.png)
 
+
 ## Video
 
 - [Link]()
