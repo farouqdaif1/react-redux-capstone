@@ -7,9 +7,9 @@ We will select an API that provides numeric data about a topic that you like and
 ## Screenshots
 
 - Home Page
-  ![localhost_3000_(iPhone 6_7_8 Plus)]("/localhost*3000*(iPhone 6_7_8 Plus) (1).png")
+![screenshot](./app_screenshot.png)
 - Details Page
-  ![localhost_3000_(iPhone 6_7_8 Plus) (1)]("/localhost*3000*(iPhone 6_7_8 Plus) (2).png")
+![screenshot](./app_screenshot1.png)
 
 ## Video
 
