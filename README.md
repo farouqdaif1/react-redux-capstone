@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# REACT-REDUX-CAPSTONE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
 
-## Available Scripts
+We will select an API that provides numeric data about a topic that you like and then build the webapp around it. The webapp will have several pages.
 
-In the project directory, you can run:
+## Screenshots
 
-### `npm start`
+- Home Page
+  ![localhost_3000_(iPhone 6_7_8 Plus)]("/localhost*3000*(iPhone 6_7_8 Plus) (1).png")
+- Details Page
+  ![localhost_3000_(iPhone 6_7_8 Plus) (1)]("/localhost*3000*(iPhone 6_7_8 Plus) (2).png")
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Video
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Link]()
+- [Special feature]()
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React-Redux
+- CSS3
 
-### `npm run build`
+## Technologies used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Github
+- Gitflow
+- Visual Studio Code
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [netlify]()
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To clone this project :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Run command: `git clone https://github.com/farouqdaif1/ract-redux-capstone.git`
+- Or press the green Code button in the upper right corner and choose to download from the Download ZIP link.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Add linters from [linters-config](https://github.com/microverseinc/linters-config/tree/master/react-redux)
+- Set up a new project Create React App (CRA)
 
-## Learn More
+- to create a React application is using Create React App (CRA) and following the instructions in this [guide](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npx create-react-app react-redux-capstone
+cd react-redux-capstone
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Add React Redux
 
-### Code Splitting
+```
+npm install react-redux
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Add React Router [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 
-### Analyzing the Bundle Size
+👤 **Farouq Daif**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@farouqdaif1](https://github.com/farouqdaif1)
+- Twitter: [@farouqdaif](https://twitter.com/farouqdaif)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/farouqdaif/https://www.linkedin.com/in/farouqdaif/)
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+- [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
