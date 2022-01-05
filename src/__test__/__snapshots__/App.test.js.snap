@@ -1,0 +1,550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App page is working fine renders App 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="container-home"
+        >
+          <div
+            class="Navbar"
+          >
+            <a
+              href="/"
+            >
+              <svg
+                class="arrow"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"
+                />
+              </svg>
+            </a>
+            <div
+              class="log"
+            >
+               Weather In Egypt
+            </div>
+            <input
+              class="search"
+              placeholder="Search.."
+              type="text"
+            />
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 12V6c0-2.217-1.785-4.021-3.979-4.021a.933.933 0 0 0-.209.025A4.006 4.006 0 0 0 8 6v6c0 2.206 1.794 4 4 4s4-1.794 4-4zm-6 0V6c0-1.103.897-2 2-2a.89.89 0 0 0 .163-.015C13.188 4.06 14 4.935 14 6v6c0 1.103-.897 2-2 2s-2-.897-2-2z"
+              />
+              <path
+                d="M6 12H4c0 4.072 3.061 7.436 7 7.931V22h2v-2.069c3.939-.495 7-3.858 7-7.931h-2c0 3.309-2.691 6-6 6s-6-2.691-6-6z"
+              />
+            </svg>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+              />
+            </svg>
+          </div>
+          <div
+            class="container"
+          >
+            <a
+              href="/"
+            >
+              <div
+                class="map"
+              >
+                <img
+                  alt="egypt"
+                  src="resize.jpg"
+                />
+              </div>
+            </a>
+            <div
+              class="buttons"
+            >
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Cairo"
+                  role="button"
+                  tabindex="0"
+                >
+                  Cairo
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Alexandria"
+                  role="button"
+                  tabindex="0"
+                >
+                  Alexandria
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Aswan"
+                  role="button"
+                  tabindex="0"
+                >
+                  Aswan
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Asyut"
+                  role="button"
+                  tabindex="0"
+                >
+                  Asyut
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Damietta"
+                  role="button"
+                  tabindex="0"
+                >
+                  Damietta
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Giza"
+                  role="button"
+                  tabindex="0"
+                >
+                  Giza
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Ismailia"
+                  role="button"
+                  tabindex="0"
+                >
+                  Ismailia
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Luxor"
+                  role="button"
+                  tabindex="0"
+                >
+                  Luxor
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Suez"
+                  role="button"
+                  tabindex="0"
+                >
+                  Suez
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Sohag"
+                  role="button"
+                  tabindex="0"
+                >
+                  Sohag
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Qena"
+                  role="button"
+                  tabindex="0"
+                >
+                  Qena
+                </div>
+              </a>
+              <a
+                class="link"
+                href="/details"
+              >
+                <div
+                  class="town"
+                  id="Minya"
+                  role="button"
+                  tabindex="0"
+                >
+                  Minya
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="container-home"
+      >
+        <div
+          class="Navbar"
+        >
+          <a
+            href="/"
+          >
+            <svg
+              class="arrow"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"
+              />
+            </svg>
+          </a>
+          <div
+            class="log"
+          >
+             Weather In Egypt
+          </div>
+          <input
+            class="search"
+            placeholder="Search.."
+            type="text"
+          />
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 12V6c0-2.217-1.785-4.021-3.979-4.021a.933.933 0 0 0-.209.025A4.006 4.006 0 0 0 8 6v6c0 2.206 1.794 4 4 4s4-1.794 4-4zm-6 0V6c0-1.103.897-2 2-2a.89.89 0 0 0 .163-.015C13.188 4.06 14 4.935 14 6v6c0 1.103-.897 2-2 2s-2-.897-2-2z"
+            />
+            <path
+              d="M6 12H4c0 4.072 3.061 7.436 7 7.931V22h2v-2.069c3.939-.495 7-3.858 7-7.931h-2c0 3.309-2.691 6-6 6s-6-2.691-6-6z"
+            />
+          </svg>
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"
+            />
+          </svg>
+        </div>
+        <div
+          class="container"
+        >
+          <a
+            href="/"
+          >
+            <div
+              class="map"
+            >
+              <img
+                alt="egypt"
+                src="resize.jpg"
+              />
+            </div>
+          </a>
+          <div
+            class="buttons"
+          >
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Cairo"
+                role="button"
+                tabindex="0"
+              >
+                Cairo
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Alexandria"
+                role="button"
+                tabindex="0"
+              >
+                Alexandria
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Aswan"
+                role="button"
+                tabindex="0"
+              >
+                Aswan
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Asyut"
+                role="button"
+                tabindex="0"
+              >
+                Asyut
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Damietta"
+                role="button"
+                tabindex="0"
+              >
+                Damietta
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Giza"
+                role="button"
+                tabindex="0"
+              >
+                Giza
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Ismailia"
+                role="button"
+                tabindex="0"
+              >
+                Ismailia
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Luxor"
+                role="button"
+                tabindex="0"
+              >
+                Luxor
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Suez"
+                role="button"
+                tabindex="0"
+              >
+                Suez
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Sohag"
+                role="button"
+                tabindex="0"
+              >
+                Sohag
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Qena"
+                role="button"
+                tabindex="0"
+              >
+                Qena
+              </div>
+            </a>
+            <a
+              class="link"
+              href="/details"
+            >
+              <div
+                class="town"
+                id="Minya"
+                role="button"
+                tabindex="0"
+              >
+                Minya
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
